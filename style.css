@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  /* background-image: url(./backgroundimage.jpg); */
+  background-color: black;
+  height: 100vh;
+}
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 1;
+  filter: brightness(0.25);
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/bfc0fc46-24f6-4d70-85b3-7799315c01dd/web/IN-en-20240923-TRIFECTA-perspective_74e21c19-980e-45ef-bd6c-78c1a6ce9381_large.jpg);
+}
+.foreground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.section1 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 95vh;
+  /* background-color: red/; */
+}
+
+title {
+  color: black;
+}
+
+.logo {
+  /* margin-left: 3%; */
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 150px;
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: azure; */
+}
+.logo > img {
+  height: 45%;
+}
+
+.select {
+  display: flex;
+  height: 32px;
+  gap: 8px;
+}
+.dropdownSelect {
+  border-radius: 3px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: whitesmoke;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.dropdownSelect option {
+  background-color: white;
+  color: black;
+}
+.select > div {
+  height: 100%;
+}
+.button {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: red;
+  color: whitesmoke;
+  height: 100%;
+  border: none;
+  padding: 0 15px;
+  font-weight: bold;
+}
+.movies {
+  align-items: flex-start;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.p {
+  font-size: 25px;
+}
+
+.p1 {
+  font-weight: 0px;
+}
+
+.bottom {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email {
+  display: flex;
+  align-items: flex-start;
+  height: 60px;
+  margin-top: 10px;
+  gap: 3%;
+}
+
+.input {
+  font-size: 10px;
+  margin-top: 5px;
+  padding-top: 50px;
+  width: 416.16px;
+  font-size: 30px;
+  color: whitesmoke;
+  border-radius: 4px;
+  height: 60.5px;
+  padding: 0px 15px;
+  margin: 10px;
+}
+
+.button1 {
+  margin-top: 8px;
+  border-top-right-radius: 4px;
+  background-color: red;
+  color: whitesmoke;
+  border-radius: 4px;
+  padding: 0px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  height: 62.5px;
+}
+
+.section2 {
+  height: 30px;
+  width: 85%;
+  border-radius: 100%;
+  border: 5px solid red;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  color: rgb(182, 17, 17);
+  margin: 0 auto;
+}
+.trending {
+  font-size: 20px;
+  color: whitesmoke;
+  display: flex;
+  /* padding: 0px 10px; */
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 30px;
+  align-items: flex-end;
+}
+
+.multiple {
+  margin-top: 10px;
+  width: 25vh;
+  height: 29vh;
+  display: flex;
+  flex-direction: row;
+  right: 10%;
+  gap: 7%;
+}
+
+.p2 {
+  font-size: 25px;
+  margin-top: 10%;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.itemscontaineer {
+  margin-top: 7% ;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0a265d82;
+  gap: 3%;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.containeer{
+  color: whitesmoke;
+  height: 400px;
+  display: flex;
+  flex-direction:row;
+  gap: 5%;
+  background-color: rgba(9, 40, 97, 0.467);
+  overflow: hidden;
+  border: 4px solid rgb(66, 8, 69);
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+b {
+  font-size: 25px;
+}
+
+.head {
+  font-size: 25px;
+  color: whitesmoke;
+}
